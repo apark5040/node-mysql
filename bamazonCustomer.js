@@ -109,7 +109,7 @@ function secondMessage() {
     ]).then(function (ans) {
 
         if (ans.howMany > itemStock) {
-            console.log("No way");
+            console.log("Insufficient quantity");
             connection.end();
         }
         else {

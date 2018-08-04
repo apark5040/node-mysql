@@ -14,13 +14,13 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES
-("Gum", "Sticky Floors", 1.50, 1000),
-("Advil", "Pharmacy", 10, 1500),
-("Paper", "Dying Trees", 2.50, 10000),
-("Hand Sanitizer", "No-Germs", 5.40, 2300),
-("Rubber Duck", "Bath Toys Section", 1.20, 6000),
-("Speakers", "My-Eardrum", 59.99, 3400),
-("Computer Monitor", "Computers", 150.00, 1245),
-("Water", "I'm-Thirsty", 1.00, 53000),
-("Febreeze", "You-stink", 3.99, 3000),
-("Game Boy Color", "Video Games", 59.99, 1400);
+("Gum", "Sticky Floors", 1.50, 20),
+("Advil", "Pharmacy", 10, 6),
+("Paper", "Dying Trees", 2.50, 30),
+("Hand Sanitizer", "No-Germs", 5.40, 4),
+("Rubber Duck", "Bath Toys Section", 1.20, 9),
+("Speakers", "My-Eardrum", 59.99, 12),
+("Computer Monitor", "Computers", 150.00, 3),
+("Water", "I'm-Thirsty", 1.00, 10),
+("Febreeze", "You-stink", 3.99, 2),
+("Game Boy Color", "Video Games", 59.99, 4);
