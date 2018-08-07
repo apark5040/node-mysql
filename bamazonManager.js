@@ -191,6 +191,8 @@ function addProduct() {
 
                 console.log("New product has been added to the database");
 
+                connection.end();
+
             });
 
     })
