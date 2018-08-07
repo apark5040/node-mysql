@@ -13,3 +13,17 @@ This is a homework that incorporates node with SQL. It uses the same tables with
 
 3.) To run one of the files, type in `node ***INSERT .JS FILE NAME HERE***`
 
+
+### bamazonCustomer.js
+
+1.) When you type in `node bamazonCustomer.js` into the terminal, you will be shown the products in the database: 
+
+![bamazonCustomer_01](images/01.png)
+
+2.) Typing an ID will show the item you have chosen and ask how much of the product you want. If there is enough quantity of the chosen item, it will update the quantity in the database based on how much you decided to buy:
+
+![bamazonCustomer_02](images/02.png)
+
+3.) If there is not enough quantity of an item, it will show "Insufficient Quantity" and end the program. 
+
+![bamazonCustomer_03](images/03.png)
